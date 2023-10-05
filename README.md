@@ -1,10 +1,10 @@
 # Weather | Clima [Avellaneda - AR] 
 #Desarrollado con Angular, Firebase(Hosting), API (OpenWeather) | developed with JS, html, Css
 
-☁ ⛅ ⛈ 🌤 🌥 🌦 🌧 🌨 🌩 🌪 🌫
-<a href='https://openweathermap.org/' target='_blank'>🌩 API OpenWeather ⛅<a/>
 
-## Weather | Clima
+<p><a href='https://openweathermap.org/' target='_blank'>🌩 API OpenWeather ⛅<a/></p>
+
+## ☁ 🌧 🌫  Weather | Clima  🌦 🌩 🌪 
 <a href='https://weather-jbr.web.app/' target='_blank'>🚀 Página Weather 👈<a/>
 
 

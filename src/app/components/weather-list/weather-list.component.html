@@ -1,0 +1,25 @@
+<div class="row" align="center">
+  <div class="col-2" *ngFor="let wt of weatherOnlyNextFiveDays">
+    <p>{{ wt.date.day }}</p>
+    <img [src]="wt.weather.icon" />
+    <p class="txt-color" style="padding-bottom: 10px;font-size: 22px;">{{ wt.weather.description }}</p>
+    <div class="row">
+      <div class="col-md-6">
+        <p>
+          Min
+        </p>
+        <p>
+          <span class="txt-color">{{ wt.temp_min_day }} ºC</span>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <p>
+          Max
+        </p>
+        <p>
+          <span class="txt-color">{{ wt.temp_max_day }} ºC</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+<section class="weather-content section-today">
+  <h1 class="txt-color">{{ weatherToday.name }} <span style="font-size: 2.5vh;">( {{country}} )</span></h1>
+  <h4>{{ weatherToday.day }}</h4>
+  <img [src]="weatherToday.icon" alt=""/>
+  <h3>Estado: <span class="txt-color">{{ weatherToday.description }}</span></h3>
+  <h2>
+    <span class="txt-color">{{ weatherToday.temp }}</span> ºC
+  </h2>
+
+  <div class="row">
+    <div class="col-md-6">
+      <p>
+        Min: <span class="txt-color">{{ weatherToday.temp_min }} ºC</span>
+      </p>
+    </div>
+    <div class="col-md-6">
+      <p>
+        Max: <span class="txt-color">{{ weatherToday.temp_max }} ºC</span>
+      </p>
+    </div>
+  </div>
+</section>

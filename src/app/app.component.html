@@ -1,0 +1,20 @@
+<body>
+  <div class="row">
+    <div class="col-md-3">
+      <app-weather-today
+        (getTempMinMax)="updateToday($event)"
+        (getStatistics)="viewStatistics($event)"
+      ></app-weather-today>
+    </div>
+
+    <div class="col-md-9">
+      <section class="weather-content">
+        <app-weather-list [todayMinMax]="todayMinMax"></app-weather-list>
+
+        <app-info-weather-today
+          [statistics]="statistics"
+        ></app-info-weather-today>
+      </section>
+    </div>
+  </div>
+</body>

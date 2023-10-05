@@ -1,27 +1,19 @@
-# Weather
+# Weather | Clima [Avellaneda - AR] 
+#Desarrollado con Angular, Firebase(Hosting), API (OpenWeather) | developed with JS, html, Css
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+☁ ⛅ ⛈ 🌤 🌥 🌦 🌧 🌨 🌩 🌪 🌫
+<a href='https://openweathermap.org/' target='_blank'>🌩 API OpenWeather ⛅<a/>
 
-## Development server
+## Weather | Clima
+<a href='https://weather-jbr.web.app/' target='_blank'>🚀 Página Weather 👈<a/>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Desktop
+<p align="center">
+  <img src='https://github.com/Jhossymarbalderrama/weather/assets/52534649/89125e9f-32c1-4548-b2fc-0375f56ee339'/>
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  ## Responsive
+| Macbooks and Tablets  | Smartphones |
+| ------------- | ------------- |
+| <img src='https://github.com/Jhossymarbalderrama/weather/assets/52534649/b53ed7f2-15a4-44f8-adbd-8995f6a248e7' width="700" height="350" /> |  <img src='https://github.com/Jhossymarbalderrama/weather/assets/52534649/def06655-9f04-409b-8af5-c8cfa06e2ac8' width="170" height="350" />  |
